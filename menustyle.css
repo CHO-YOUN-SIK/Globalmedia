@@ -1,0 +1,122 @@
+.borrow > h1{
+    position : absolute;
+    top: 120px;
+    left: 10%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.borrow > p{
+    position : absolute;
+    top: 150px;
+    left: 10%;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.borrow > iframe{
+    position: absolute ; 
+    border-style: none; 
+    width: 80%; 
+    height: 500px; 
+    top:220px; 
+    left: 10%;
+    z-index: -1;
+}
+
+.borrow > input{
+    position: absolute;
+    top:120px;
+    right : 10%;
+    border : none;
+    width : 7vw;
+    height : 2vw;
+    background-color: #9A77FF;
+    min-height: 30px;
+    min-width: 80px;
+    min-block-size: 30px;
+    color: white;
+    font-size: 1vw;
+    font-weight: lighter;
+    border-radius: 100px;
+    transition : 0.3s;
+}
+
+.borrow > input:focus{
+    outline: 0;
+}
+
+.borrow > input:hover{
+    cursor:pointer;
+    box-shadow: 0 2px 4px midnightblue;
+}
+
+.printer > h1{
+    position : absolute;
+    top: 280px;
+    left: 10%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.printer > p{
+    position : absolute;
+    top: 310px;
+    left: 10%;
+    font-size: 12px;
+    font-weight: lighter;
+    transition: 0.3s;
+}
+
+.printer > iframe{
+    position: absolute ; 
+    border-style: none; 
+    width: 80%; 
+    height: 500px; 
+    top:380px; 
+    left: 10%;
+    z-index: -1;
+}
+
+.printer > input{
+    position: absolute;
+    top:280px;
+    right : 10%;
+    border : none;
+    width : 7vw;
+    height : 2vw;
+    background-color: #9A77FF;
+    min-height: 30px;
+    min-width: 80px;
+    min-block-size: 30px;
+    color: white;
+    font-size: 1vw;
+    font-weight: lighter;
+    border-radius: 100px;
+    transition : 0.3s;
+}
+
+.printer > input:focus{
+    outline: 0;
+}
+
+.printer > input:hover{
+    cursor:pointer;
+    box-shadow: 0 2px 4px midnightblue;
+}
+
+.logoimage{
+    position: absolute;
+    width : 10vw;
+    min-width: 120px;
+    top : 30px;
+    left : 50%;
+    transform: translateX(-50%);
+}
+
+.logoimage:hover{
+    cursor:pointer;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Menu</title>
+    <link href="menustyle.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script> 
+  </head>
+
+  <body>
+    <img class = "logoimage" src = "미리내 학생회 로고.png" onclick = "window.location.href = 'index.html'">
+    <div class = "borrow">
+      <h1>🗒️대여사업</h1>
+      <p>학생회비를 납부한 학우분들을 대상으로 하는 물품 대여 서비스에요.</p>
+      <input type="button" id ="send1" onclick="popsend1()" value="신청하기">
+      <iframe id ="sendpop1" src="about:blank" data-src="https://docs.google.com/forms/d/e/1FAIpQLSdAwWQLkfduOn68IfUzDjeBC96bmYnomfmI5g97PbG3x_RLUw/viewform?embedded=true"
+        frameborder="0" border="0" cellspacing="0"></iframe>
+    </div>
+    <div class = "printer">
+      <h1 id = "title1">🖨️프린터사업</h1>
+      <p id = "description1">학생회비를 납부한 학우분들을 대상으로 하는 프린터기 사용 서비스에요.</p>
+      <input type="button" id ="send2" onclick="popsend2()" value="신청하기">
+      <iframe id ="sendpop2" src="about:blank" data-src="https://docs.google.com/forms/d/e/1FAIpQLScjFg9Or-Yjd8iHQADnNn21hbSDYaLBi-KQQFWTtE-uJ33dfA/viewform?embedded=true"
+        frameborder="0" border="0" cellspacing="0"></iframe>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+.title{
+    position : absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.title > h1{
+    font-size: 4vw;
+    font-weight: lighter;
+}
+
+.title > p{
+    position : relative; 
+    font-size: 1.5vw;
+    font-weight: lighter;
+    color: gray;
+    top: -0.5vw;
+    transform: translateY(-50%);
+}
+
+.tomenu{
+    position : absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
+.tomenu > button{
+    border : none;
+    width : 10vw;
+    height : 3vw;
+    background-color: #9A77FF;
+    min-height: 20px;
+    min-width: 60px;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    border-radius: 100px;
+    transition : 0.3s;
+}
+
+.tomenu > button:focus{
+    outline: 0;
+}
+
+.tomenu > button:hover{
+    cursor:pointer;
+    box-shadow: 0 2px 4px midnightblue;
+}
+
+.images > .img1 {
+    position: absolute;
+    width : 10vw;
+    min-width: 100px;
+    top : 5%;
+    left : 10%;
+}
+
+.images > .img2 {
+    position: absolute;
+    width : 10vw;
+    min-width: 100px;
+    top : 7%;
+    right : 10%;
+}
